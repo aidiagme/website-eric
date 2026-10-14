@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eric — Développeur freelance web & mobile</title>
+  <meta name="description" content="Freelance en création de sites web et d'applications mobiles (iOS & Android). Du design au déploiement, je transforme votre idée en produit performant.">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="container nav">
+      <a href="#top" class="logo">Eric<span>.dev</span></a>
+      <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+      <nav id="menu" class="menu">
+        <a href="#services">Services</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#process">Méthode</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-small">Me contacter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Freelance · Disponible pour de nouveaux projets</p>
+          <h1>Je crée vos <em>sites web</em> et <em>applications mobiles</em> sur mesure.</h1>
+          <p class="lead">Du design au déploiement, je transforme votre idée en produit rapide, élégant et pensé pour vos utilisateurs — sur le web, iOS et Android.</p>
+          <div class="cta">
+            <a href="#contact" class="btn">Demander un devis gratuit</a>
+            <a href="#realisations" class="btn btn-ghost">Voir mes réalisations</a>
+          </div>
+          <ul class="stats">
+            <li><strong>6+ ans</strong><span>d'expérience</span></li>
+            <li><strong>40+</strong><span>projets livrés</span></li>
+            <li><strong>100%</strong><span>clients satisfaits</span></li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="window">
+            <div class="window-bar"><i></i><i></i><i></i></div>
+            <pre><code><b>const</b> projet = {
+  type: <s>"site web + app mobile"</s>,
+  stack: [<s>"React"</s>, <s>"Flutter"</s>, <s>"Node"</s>],
+  delai: <s>"4 à 8 semaines"</s>,
+  qualite: <s>"sur mesure"</s>
+};</code></pre>
+          </div>
+          <div class="phone"><div class="notch"></div><div class="screen"><span></span><span></span><span></span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="sub">Un seul interlocuteur pour tout votre projet digital.</p>
+        <div class="cards">
+          <article class="card">
+            <div class="icon">🌐</div>
+            <h3>Sites vitrines &amp; e-commerce</h3>
+            <p>Sites rapides, responsives et optimisés SEO pour présenter votre activité ou vendre en ligne.</p>
+          </article>
+          <article class="card">
+            <div class="icon">📱</div>
+            <h3>Applications mobiles</h3>
+            <p>Apps iOS et Android natives ou cross-platform (Flutter, React Native) avec une UX soignée.</p>
+          </article>
+          <article class="card">
+            <div class="icon">⚙️</div>
+            <h3>Applications web &amp; SaaS</h3>
+            <p>Tableaux de bord, plateformes, back-offices et APIs robustes qui évoluent avec votre activité.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🎨</div>
+            <h3>UI/UX Design</h3>
+            <p>Maquettes, prototypes et identité visuelle pour un produit clair et agréable à utiliser.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🚀</div>
+            <h3>Performance &amp; SEO</h3>
+            <p>Audit, optimisation de la vitesse et du référencement pour gagner en visibilité.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🛠️</div>
+            <h3>Maintenance &amp; évolution</h3>
+            <p>Hébergement, mises à jour, corrections et nouvelles fonctionnalités après la mise en ligne.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Technologies</h2>
+        <p class="sub">Des outils modernes, choisis selon votre besoin.</p>
+        <ul class="tags">
+          <li>HTML / CSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li>
+          <li>Vue.js</li><li>Node.js</li><li>Flutter</li><li>React Native</li><li>Swift</li>
+          <li>Kotlin</li><li>Firebase</li><li>PostgreSQL</li><li>WordPress</li><li>Figma</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="realisations" class="section">
+      <div class="container">
+        <h2>Réalisations</h2>
+        <p class="sub">Exemples de projets types (à remplacer par vos vraies références).</p>
+        <div class="cards">
+          <article class="project">
+            <div class="thumb t1">Restaurant</div>
+            <h3>Site de restaurant avec réservation</h3>
+            <p>Site vitrine + réservation en ligne. +35% de réservations en 3 mois.</p>
+            <span class="meta">Web · Next.js</span>
+          </article>
+          <article class="project">
+            <div class="thumb t2">Fitness</div>
+            <h3>App de coaching sportif</h3>
+            <p>Application iOS/Android avec suivi des séances et notifications.</p>
+            <span class="meta">Mobile · Flutter</span>
+          </article>
+          <article class="project">
+            <div class="thumb t3">E-shop</div>
+            <h3>Boutique en ligne artisanale</h3>
+            <p>E-commerce complet avec paiement sécurisé et gestion des stocks.</p>
+            <span class="meta">Web · E-commerce</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section alt">
+      <div class="container">
+        <h2>Ma méthode</h2>
+        <p class="sub">Un process simple et transparent, de l'idée à la mise en ligne.</p>
+        <ol class="steps">
+          <li><h3>Échange</h3><p>On définit vos objectifs, votre cible et votre budget lors d'un appel gratuit.</p></li>
+          <li><h3>Conception</h3><p>Cahier des charges, maquettes et prototype validés avant le développement.</p></li>
+          <li><h3>Développement</h3><p>Développement itératif avec des points d'étape réguliers et des démos.</p></li>
+          <li><h3>Lancement</h3><p>Tests, publication (web, App Store, Google Play) et formation à l'outil.</p></li>
+          <li><h3>Suivi</h3><p>Maintenance, statistiques et évolutions pour faire grandir votre projet.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="tarifs" class="section">
+      <div class="container">
+        <h2>Tarifs indicatifs</h2>
+        <p class="sub">Chaque projet est unique : devis personnalisé et gratuit.</p>
+        <div class="cards pricing">
+          <article class="card">
+            <h3>Site vitrine</h3>
+            <p class="price">à partir de <strong>1 200 €</strong></p>
+            <ul><li>Jusqu'à 5 pages</li><li>Design responsive</li><li>SEO de base</li><li>Formulaire de contact</li></ul>
+            <a href="#contact" class="btn btn-ghost">Choisir</a>
+          </article>
+          <article class="card featured">
+            <span class="ribbon">Populaire</span>
+            <h3>Application mobile</h3>
+            <p class="price">à partir de <strong>5 000 €</strong></p>
+            <ul><li>iOS &amp; Android</li><li>UI/UX sur mesure</li><li>API &amp; back-office</li><li>Publication sur les stores</li></ul>
+            <a href="#contact" class="btn">Choisir</a>
+          </article>
+          <article class="card">
+            <h3>Application web / SaaS</h3>
+            <p class="price">à partir de <strong>4 000 €</strong></p>
+            <ul><li>Authentification</li><li>Tableau de bord</li><li>Base de données</li><li>Paiements en ligne</li></ul>
+            <a href="#contact" class="btn btn-ghost">Choisir</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Ils me font confiance</h2>
+        <div class="cards">
+          <blockquote class="card quote">« Eric a livré notre application dans les délais, avec un vrai souci du détail. »<cite>— Sophie M., fondatrice de startup</cite></blockquote>
+          <blockquote class="card quote">« Communication claire, réactivité et résultat au-delà de nos attentes. »<cite>— Karim B., gérant de restaurant</cite></blockquote>
+          <blockquote class="card quote">« Notre site charge deux fois plus vite et nos ventes ont décollé. »<cite>— Laura D., e-commerçante</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container narrow">
+        <h2>Questions fréquentes</h2>
+        <details><summary>Combien de temps prend un projet ?</summary><p>Un site vitrine prend en général 2 à 4 semaines, une application mobile 6 à 12 semaines selon la complexité.</p></details>
+        <details><summary>Comment se déroule le paiement ?</summary><p>Un acompte de 30 % au démarrage, puis des paiements par étapes, et le solde à la livraison.</p></details>
+        <details><summary>Serai-je propriétaire du code ?</summary><p>Oui, une fois le projet payé, vous êtes propriétaire de l'ensemble du code et des contenus.</p></details>
+        <details><summary>Proposez-vous de la maintenance ?</summary><p>Oui, via un forfait mensuel : mises à jour, sauvegardes, corrections et petites évolutions.</p></details>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container narrow">
+        <h2>Parlons de votre projet</h2>
+        <p class="sub">Décrivez votre besoin, je vous réponds sous 24 h avec une première estimation.</p>
+        <form id="contact-form" novalidate>
+          <div class="row">
+            <label>Nom<input name="name" required autocomplete="name"></label>
+            <label>Email<input name="email" type="email" required autocomplete="email"></label>
+          </div>
+          <label>Type de projet
+            <select name="type">
+              <option>Site web</option>
+              <option>Application mobile</option>
+              <option>Application web / SaaS</option>
+              <option>Autre</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn" type="submit">Envoyer ma demande</button>
+          <p class="form-msg" role="status"></p>
+        </form>
+        <p class="alt-contact">Ou écrivez-moi directement : <a href="mailto:contact@eric.dev">contact@eric.dev</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <span>© <span id="year"></span> Eric — Développeur freelance web &amp; mobile</span>
+      <a href="#top">Haut de page ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
