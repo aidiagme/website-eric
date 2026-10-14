@@ -32,7 +32,7 @@ form.addEventListener("submit", (e) => {
   }
   const subject = encodeURIComponent(`Nouveau projet : ${data.get("type")}`);
   const body = encodeURIComponent(`${text}\n\n— ${name} (${email})`);
-  window.location.href = `mailto:contact@eric.dev?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:benzakin@gmail.com?subject=${subject}&body=${body}`;
   msg.textContent = "Merci ! Votre messagerie va s'ouvrir pour envoyer la demande.";
   form.reset();
 });
