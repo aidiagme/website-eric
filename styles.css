@@ -137,16 +137,6 @@ details p { color: var(--muted); margin: 12px 0 0; }
 /* Contact */
 .contact { background: var(--dark); color: #fff; }
 .contact .sub { color: #94a3b8; }
-form { display: grid; gap: 16px; }
-.row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-label { display: grid; gap: 6px; font-weight: 500; font-size: .9rem; }
-input, select, textarea {
-  font: inherit; padding: 12px 14px; border-radius: 10px; border: 1px solid #334155;
-  background: #1e293b; color: #fff;
-}
-input:focus, select:focus, textarea:focus { outline: 2px solid var(--primary); border-color: transparent; }
-.form-msg { margin: 0; min-height: 1.4em; color: #86efac; }
-.form-msg.error { color: #fca5a5; }
 .alt-contact { text-align: center; color: #94a3b8; margin-top: 24px; }
 
 .footer { background: #020617; color: #94a3b8; padding: 24px 0; font-size: .9rem; }
@@ -163,5 +153,4 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--primary); b
     border-bottom: 1px solid var(--border); display: none;
   }
   .menu.open { display: flex; }
-  .row { grid-template-columns: 1fr; }
 }
